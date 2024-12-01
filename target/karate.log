@@ -1,0 +1,2120 @@
+16:36:20.867 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:36:24.489 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:36:25.260 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:36:26.308 [main] DEBUG com.intuit.karate - response time in milliseconds: 1039
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:36:26 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 508
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=london
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-0.1257,"lat":51.5085},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04n"}],"base":"stations","main":{"temp":285.44,"feels_like":285.07,"temp_min":284.54,"temp_max":286.21,"pressure":1021,"humidity":90,"sea_level":1021,"grnd_level":1017},"visibility":10000,"wind":{"speed":3.09,"deg":160},"clouds":{"all":75},"dt":1733002290,"sys":{"type":2,"id":2075535,"country":"GB","sunrise":1732952586,"sunset":1732982153},"timezone":0,"id":2643743,"name":"London","cod":200}
+
+16:36:26.600 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:36:26.653 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=Paris&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:36:27.076 [main] DEBUG com.intuit.karate - response time in milliseconds: 418
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:36:26 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 496
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=paris
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":2.3488,"lat":48.8534},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50n"}],"base":"stations","main":{"temp":274.99,"feels_like":272.24,"temp_min":274.43,"temp_max":275.92,"pressure":1026,"humidity":100,"sea_level":1026,"grnd_level":1016},"visibility":1200,"wind":{"speed":2.57,"deg":160},"clouds":{"all":100},"dt":1733002300,"sys":{"type":1,"id":6550,"country":"FR","sunrise":1732951317,"sunset":1732982233},"timezone":3600,"id":2988507,"name":"Paris","cod":200}
+
+16:36:27.119 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:36:27.132 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=Tokyo&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:36:27.418 [main] DEBUG com.intuit.karate - response time in milliseconds: 285
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:36:27 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 507
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=tokyo
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":139.6917,"lat":35.6895},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02d"}],"base":"stations","main":{"temp":281.56,"feels_like":278.14,"temp_min":279.7,"temp_max":282.96,"pressure":1014,"humidity":57,"sea_level":1014,"grnd_level":1012},"visibility":10000,"wind":{"speed":6.69,"deg":340},"clouds":{"all":20},"dt":1733002456,"sys":{"type":2,"id":268395,"country":"JP","sunrise":1733002360,"sunset":1733038093},"timezone":32400,"id":1850144,"name":"Tokyo","cod":200}
+
+16:36:27.454 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:36:27.463 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=New+York&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:36:27.776 [main] DEBUG com.intuit.karate - response time in milliseconds: 310
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:36:27 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 521
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=new+york
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-74.006,"lat":40.7143},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02n"}],"base":"stations","main":{"temp":276.11,"feels_like":270.59,"temp_min":274.72,"temp_max":277.13,"pressure":1016,"humidity":44,"sea_level":1016,"grnd_level":1015},"visibility":10000,"wind":{"speed":8.23,"deg":260,"gust":10.8},"clouds":{"all":20},"dt":1733002199,"sys":{"type":1,"id":4610,"country":"US","sunrise":1732968022,"sunset":1733002188},"timezone":-18000,"id":5128581,"name":"New York","cod":200}
+
+16:36:27.801 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:36:27.810 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=Sydney&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:36:28.125 [main] DEBUG com.intuit.karate - response time in milliseconds: 314
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:36:27 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 516
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=sydney
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":151.2073,"lat":-33.8679},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":296.5,"feels_like":297.08,"temp_min":294.94,"temp_max":297.65,"pressure":1007,"humidity":84,"sea_level":1007,"grnd_level":1002},"visibility":10000,"wind":{"speed":4.12,"deg":290},"clouds":{"all":40},"dt":1733002555,"sys":{"type":2,"id":2091046,"country":"AU","sunrise":1732991855,"sunset":1733043069},"timezone":39600,"id":2147714,"name":"Sydney","cod":200}
+
+16:36:28.153 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:36:28.167 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=Bogota&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:36:28.449 [main] DEBUG com.intuit.karate - response time in milliseconds: 279
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:36:28 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 508
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=bogota
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-74.0817,"lat":4.6097},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":289.96,"feels_like":289.18,"temp_min":289.88,"temp_max":291.3,"pressure":1013,"humidity":57,"sea_level":1013,"grnd_level":736},"visibility":10000,"wind":{"speed":4.12,"deg":100},"clouds":{"all":75},"dt":1733002105,"sys":{"type":1,"id":8582,"country":"CO","sunrise":1732963750,"sunset":1733006496},"timezone":-18000,"id":3688689,"name":"Bogota","cod":200}
+
+16:36:28.482 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:36:28.491 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:36:28.784 [main] DEBUG com.intuit.karate - response time in milliseconds: 291
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:36:28 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 510
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=35&lon=139
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":139,"lat":35},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01n"}],"base":"stations","main":{"temp":277.77,"feels_like":277.77,"temp_min":277.77,"temp_max":277.77,"pressure":1014,"humidity":89,"sea_level":1014,"grnd_level":974},"visibility":10000,"wind":{"speed":0.71,"deg":108,"gust":1.09},"clouds":{"all":4},"dt":1733002238,"sys":{"type":2,"id":2019346,"country":"JP","sunrise":1733002425,"sunset":1733038360},"timezone":32400,"id":1851632,"name":"Shuzenji","cod":200}
+
+16:36:28.830 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:36:28.837 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=-33.86&lon=151.21&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:36:29.120 [main] DEBUG com.intuit.karate - response time in milliseconds: 281
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:36:28 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 512
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=-33.86&lon=151.21
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":151.21,"lat":-33.86},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":296.8,"feels_like":297.41,"temp_min":295.23,"temp_max":298.14,"pressure":1007,"humidity":84,"sea_level":1007,"grnd_level":1002},"visibility":10000,"wind":{"speed":4.12,"deg":290},"clouds":{"all":40},"dt":1733002588,"sys":{"type":2,"id":2091046,"country":"AU","sunrise":1732991856,"sunset":1733043067},"timezone":39600,"id":6619279,"name":"Sydney","cod":200}
+
+16:36:29.159 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:36:29.166 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=4.61&lon=-74.08&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:36:29.458 [main] DEBUG com.intuit.karate - response time in milliseconds: 290
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:36:29 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 508
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=4.61&lon=-74.08
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-74.0817,"lat":4.6097},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":289.96,"feels_like":289.18,"temp_min":289.88,"temp_max":291.3,"pressure":1013,"humidity":57,"sea_level":1013,"grnd_level":736},"visibility":10000,"wind":{"speed":4.12,"deg":100},"clouds":{"all":75},"dt":1733002022,"sys":{"type":1,"id":8582,"country":"CO","sunrise":1732963750,"sunset":1733006496},"timezone":-18000,"id":3688689,"name":"Bogota","cod":200}
+
+16:36:29.471 [main] ERROR com.intuit.karate - classpath:examples/users/weather.feature:31
+And match response.coord.lat == 4.61
+match failed: EQUALS
+  $ | not equal (NUMBER:NUMBER)
+  4.6097
+  4.61
+
+classpath:examples/users/weather.feature:31
+16:36:29.548 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:36:29.571 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=6.24&lon=-75.58&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:36:29.857 [main] DEBUG com.intuit.karate - response time in milliseconds: 283
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:36:29 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 511
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=6.24&lon=-75.58
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-75.5752,"lat":6.2434},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02d"}],"base":"stations","main":{"temp":301.24,"feels_like":301.27,"temp_min":300.3,"temp_max":302.05,"pressure":1009,"humidity":45,"sea_level":1009,"grnd_level":803},"visibility":10000,"wind":{"speed":5.14,"deg":130},"clouds":{"all":20},"dt":1733002566,"sys":{"type":2,"id":2099296,"country":"CO","sunrise":1732964266,"sunset":1733006697},"timezone":-18000,"id":3674962,"name":"Medellín","cod":200}
+
+16:36:29.863 [main] ERROR com.intuit.karate - classpath:examples/users/weather.feature:31
+And match response.coord.lat == 6.24
+match failed: EQUALS
+  $ | not equal (NUMBER:NUMBER)
+  6.2434
+  6.24
+
+classpath:examples/users/weather.feature:31
+16:36:29.884 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:36:29.891 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=8a641b11ec90007d395813a6f3ca2c10&mode=json
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:36:30.242 [main] DEBUG com.intuit.karate - response time in milliseconds: 349
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:36:29 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 511
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?mode=json&q=london
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-0.1257,"lat":51.5085},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04n"}],"base":"stations","main":{"temp":285.34,"feels_like":284.96,"temp_min":284.54,"temp_max":285.98,"pressure":1021,"humidity":90,"sea_level":1021,"grnd_level":1017},"visibility":10000,"wind":{"speed":2.57,"deg":160},"clouds":{"all":100},"dt":1733002382,"sys":{"type":2,"id":2075535,"country":"GB","sunrise":1732952586,"sunset":1732982153},"timezone":0,"id":2643743,"name":"London","cod":200}
+
+16:36:30.258 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:36:30.264 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=8a641b11ec90007d395813a6f3ca2c10&mode=xml
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:36:30.620 [main] DEBUG com.intuit.karate - response time in milliseconds: 355
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:36:30 GMT
+1 < Content-Type: application/xml; charset=utf-8
+1 < Content-Length: 878
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?mode=xml&q=london
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+<?xml version="1.0" encoding="UTF-8"?>
+<current><city id="2643743" name="London"><coord lon="-0.1257" lat="51.5085"></coord><country>GB</country><timezone>0</timezone><sun rise="2024-11-30T07:43:06" set="2024-11-30T15:55:53"></sun></city><temperature value="285.32" min="284.54" max="285.98" unit="kelvin"></temperature><feels_like value="284.94" unit="kelvin"></feels_like><humidity value="90" unit="%"></humidity><pressure value="1021" unit="hPa"></pressure><wind><speed value="2.57" unit="m/s" name="Light breeze"></speed><gusts></gusts><direction value="160" code="SSE" name="South-southeast"></direction></wind><clouds value="100" name="overcast clouds"></clouds><visibility value="10000"></visibility><precipitation mode="no"></precipitation><weather number="804" value="overcast clouds" icon="04n"></weather><lastupdate value="2024-11-30T21:36:30"></lastupdate></current>
+
+16:36:30.665 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:36:30.672 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=invalid_api_key
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:36:30.980 [main] DEBUG com.intuit.karate - response time in milliseconds: 306
+1 < 401
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:36:30 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 108
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=london
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"cod":401, "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."}
+
+16:36:31.002 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:36:31.006 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=London
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:36:31.282 [main] DEBUG com.intuit.karate - response time in milliseconds: 276
+1 < 401
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:36:31 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 108
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=london
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"cod":401, "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."}
+
+16:36:31.304 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:36:31.314 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:36:31.597 [main] DEBUG com.intuit.karate - response time in milliseconds: 281
+1 < 400
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:36:31 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"cod":"400","message":"Nothing to geocode"}
+
+16:36:31.615 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:36:31.620 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=35&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:36:31.901 [main] DEBUG com.intuit.karate - response time in milliseconds: 279
+1 < 400
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:36:31 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=35
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"cod":"400","message":"Nothing to geocode"}
+
+16:40:28.593 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:40:33.377 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:40:34.404 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:40:35.483 [main] DEBUG com.intuit.karate - response time in milliseconds: 1070
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:40:35 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 508
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=london
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-0.1257,"lat":51.5085},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04n"}],"base":"stations","main":{"temp":285.44,"feels_like":285.07,"temp_min":284.54,"temp_max":286.36,"pressure":1022,"humidity":90,"sea_level":1022,"grnd_level":1018},"visibility":10000,"wind":{"speed":3.09,"deg":160},"clouds":{"all":75},"dt":1733002109,"sys":{"type":2,"id":2075535,"country":"GB","sunrise":1732952586,"sunset":1732982153},"timezone":0,"id":2643743,"name":"London","cod":200}
+
+16:40:35.723 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:40:35.737 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=Paris&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:40:36.053 [main] DEBUG com.intuit.karate - response time in milliseconds: 314
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:40:35 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 496
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=paris
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":2.3488,"lat":48.8534},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50n"}],"base":"stations","main":{"temp":274.99,"feels_like":272.24,"temp_min":274.43,"temp_max":275.92,"pressure":1026,"humidity":100,"sea_level":1026,"grnd_level":1016},"visibility":1200,"wind":{"speed":2.57,"deg":160},"clouds":{"all":100},"dt":1733002835,"sys":{"type":1,"id":6550,"country":"FR","sunrise":1732951317,"sunset":1732982233},"timezone":3600,"id":2988507,"name":"Paris","cod":200}
+
+16:40:36.099 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:40:36.118 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=Tokyo&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:40:36.397 [main] DEBUG com.intuit.karate - response time in milliseconds: 278
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:40:36 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 507
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=tokyo
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":139.6917,"lat":35.6895},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02d"}],"base":"stations","main":{"temp":281.56,"feels_like":278.14,"temp_min":279.7,"temp_max":282.96,"pressure":1014,"humidity":56,"sea_level":1014,"grnd_level":1012},"visibility":10000,"wind":{"speed":6.69,"deg":340},"clouds":{"all":20},"dt":1733002650,"sys":{"type":2,"id":268395,"country":"JP","sunrise":1733002360,"sunset":1733038093},"timezone":32400,"id":1850144,"name":"Tokyo","cod":200}
+
+16:40:36.458 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:40:36.469 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=New+York&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:40:36.783 [main] DEBUG com.intuit.karate - response time in milliseconds: 311
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:40:36 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 512
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=new+york
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-74.006,"lat":40.7143},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02n"}],"base":"stations","main":{"temp":275.93,"feels_like":270.93,"temp_min":274.72,"temp_max":277.02,"pressure":1017,"humidity":46,"sea_level":1017,"grnd_level":1015},"visibility":10000,"wind":{"speed":6.69,"deg":250},"clouds":{"all":20},"dt":1733002381,"sys":{"type":2,"id":2008776,"country":"US","sunrise":1732968022,"sunset":1733002188},"timezone":-18000,"id":5128581,"name":"New York","cod":200}
+
+16:40:36.821 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:40:36.829 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=Sydney&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:40:37.118 [main] DEBUG com.intuit.karate - response time in milliseconds: 287
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:40:36 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 517
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=sydney
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":151.2073,"lat":-33.8679},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":296.55,"feels_like":297.11,"temp_min":294.94,"temp_max":297.84,"pressure":1007,"humidity":83,"sea_level":1007,"grnd_level":1002},"visibility":10000,"wind":{"speed":4.12,"deg":290},"clouds":{"all":40},"dt":1733002768,"sys":{"type":2,"id":2091046,"country":"AU","sunrise":1732991855,"sunset":1733043069},"timezone":39600,"id":2147714,"name":"Sydney","cod":200}
+
+16:40:37.150 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:40:37.159 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=Bogota&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:40:37.436 [main] DEBUG com.intuit.karate - response time in milliseconds: 275
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:40:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 508
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=bogota
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-74.0817,"lat":4.6097},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":289.96,"feels_like":289.18,"temp_min":289.88,"temp_max":291.3,"pressure":1014,"humidity":57,"sea_level":1014,"grnd_level":737},"visibility":10000,"wind":{"speed":4.12,"deg":100},"clouds":{"all":75},"dt":1733002305,"sys":{"type":1,"id":8582,"country":"CO","sunrise":1732963750,"sunset":1733006496},"timezone":-18000,"id":3688689,"name":"Bogota","cod":200}
+
+16:40:37.473 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:40:37.482 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:40:38.136 [main] DEBUG com.intuit.karate - response time in milliseconds: 652
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:40:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 510
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=35&lon=139
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":139,"lat":35},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":278.32,"feels_like":278.32,"temp_min":278.32,"temp_max":278.32,"pressure":1014,"humidity":90,"sea_level":1014,"grnd_level":974},"visibility":10000,"wind":{"speed":0.71,"deg":108,"gust":1.09},"clouds":{"all":4},"dt":1733002837,"sys":{"type":2,"id":2019346,"country":"JP","sunrise":1733002425,"sunset":1733038360},"timezone":32400,"id":1851632,"name":"Shuzenji","cod":200}
+
+16:40:38.177 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:40:38.189 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=51.51&lon=-0.13&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:40:38.464 [main] DEBUG com.intuit.karate - response time in milliseconds: 273
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:40:38 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 507
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=51.51&lon=-0.13
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-0.1276,"lat":51.5072},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04n"}],"base":"stations","main":{"temp":285.3,"feels_like":284.92,"temp_min":284.56,"temp_max":286,"pressure":1021,"humidity":90,"sea_level":1021,"grnd_level":1017},"visibility":10000,"wind":{"speed":2.57,"deg":160},"clouds":{"all":100},"dt":1733002767,"sys":{"type":2,"id":2075535,"country":"GB","sunrise":1732952586,"sunset":1732982153},"timezone":0,"id":2643743,"name":"London","cod":200}
+
+16:40:38.474 [main] ERROR com.intuit.karate - classpath:examples/users/weather.feature:31
+And match response.coord.lat == 51.51
+match failed: EQUALS
+  $ | not equal (NUMBER:NUMBER)
+  51.5072
+  51.51
+
+classpath:examples/users/weather.feature:31
+16:40:38.541 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:40:38.551 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=40.71&lon=-74.01&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:40:38.872 [main] DEBUG com.intuit.karate - response time in milliseconds: 319
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:40:38 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 513
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=40.71&lon=-74.01
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-74.0072,"lat":40.7131},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02n"}],"base":"stations","main":{"temp":275.88,"feels_like":270.87,"temp_min":274.46,"temp_max":277.01,"pressure":1017,"humidity":46,"sea_level":1017,"grnd_level":1015},"visibility":10000,"wind":{"speed":6.69,"deg":250},"clouds":{"all":20},"dt":1733002569,"sys":{"type":2,"id":2008776,"country":"US","sunrise":1732968022,"sunset":1733002188},"timezone":-18000,"id":5128581,"name":"New York","cod":200}
+
+16:40:38.876 [main] ERROR com.intuit.karate - classpath:examples/users/weather.feature:31
+And match response.coord.lat == 40.71
+match failed: EQUALS
+  $ | not equal (NUMBER:NUMBER)
+  40.7131
+  40.71
+
+classpath:examples/users/weather.feature:31
+16:40:38.895 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:40:38.903 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=-33.86&lon=151.21&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:40:39.183 [main] DEBUG com.intuit.karate - response time in milliseconds: 280
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:40:38 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 517
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=-33.86&lon=151.21
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":151.21,"lat":-33.86},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":296.85,"feels_like":297.44,"temp_min":295.23,"temp_max":298.14,"pressure":1007,"humidity":83,"sea_level":1007,"grnd_level":1002},"visibility":10000,"wind":{"speed":4.12,"deg":290},"clouds":{"all":40},"dt":1733002838,"sys":{"type":2,"id":2091046,"country":"AU","sunrise":1732991856,"sunset":1733043067},"timezone":39600,"id":2161251,"name":"Kirribilli","cod":200}
+
+16:40:39.210 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:40:39.219 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=4.61&lon=-74.08&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:40:39.502 [main] DEBUG com.intuit.karate - response time in milliseconds: 281
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:40:39 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 505
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=4.61&lon=-74.08
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-74.08,"lat":4.61},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":289.83,"feels_like":289.09,"temp_min":289.83,"temp_max":289.83,"pressure":1014,"humidity":59,"sea_level":1014,"grnd_level":737},"visibility":10000,"wind":{"speed":4.12,"deg":100},"clouds":{"all":75},"dt":1733002839,"sys":{"type":1,"id":8582,"country":"CO","sunrise":1732963750,"sunset":1733006496},"timezone":-18000,"id":3688689,"name":"Bogota","cod":200}
+
+16:40:39.525 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:40:39.532 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=6.24&lon=-75.58&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:40:39.845 [main] DEBUG com.intuit.karate - response time in milliseconds: 311
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:40:39 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 503
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=6.24&lon=-75.58
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-75.58,"lat":6.24},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02d"}],"base":"stations","main":{"temp":303.25,"feels_like":302.15,"temp_min":300.3,"temp_max":303.25,"pressure":1009,"humidity":32,"sea_level":1009,"grnd_level":803},"visibility":10000,"wind":{"speed":7.72,"deg":70},"clouds":{"all":20},"dt":1733002839,"sys":{"type":1,"id":8577,"country":"CO","sunrise":1732964267,"sunset":1733006699},"timezone":-18000,"id":3674962,"name":"Medellín","cod":200}
+
+16:40:39.865 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:40:39.872 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=48.85&lon=2.35&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:40:40.154 [main] DEBUG com.intuit.karate - response time in milliseconds: 278
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:40:39 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 496
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=48.85&lon=2.35
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":2.3484,"lat":48.8535},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50n"}],"base":"stations","main":{"temp":274.99,"feels_like":272.24,"temp_min":274.43,"temp_max":275.92,"pressure":1026,"humidity":100,"sea_level":1026,"grnd_level":1016},"visibility":1200,"wind":{"speed":2.57,"deg":160},"clouds":{"all":100},"dt":1733002537,"sys":{"type":1,"id":6550,"country":"FR","sunrise":1732951317,"sunset":1732982233},"timezone":3600,"id":2968815,"name":"Paris","cod":200}
+
+16:40:40.159 [main] ERROR com.intuit.karate - classpath:examples/users/weather.feature:31
+And match response.coord.lat == 48.85
+match failed: EQUALS
+  $ | not equal (NUMBER:NUMBER)
+  48.8535
+  48.85
+
+classpath:examples/users/weather.feature:31
+16:40:40.178 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:40:40.184 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=55.75&lon=37.62&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:40:40.487 [main] DEBUG com.intuit.karate - response time in milliseconds: 301
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:40:40 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 526
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=55.75&lon=37.62
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":37.6175,"lat":55.7504},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04n"}],"base":"stations","main":{"temp":274.58,"feels_like":270.97,"temp_min":273.49,"temp_max":274.68,"pressure":1031,"humidity":72,"sea_level":1031,"grnd_level":1011},"visibility":10000,"wind":{"speed":3.51,"deg":239,"gust":8.17},"clouds":{"all":100},"dt":1733002419,"sys":{"type":2,"id":2094500,"country":"RU","sunrise":1733031324,"sunset":1733058137},"timezone":10800,"id":524901,"name":"Moscow","cod":200}
+
+16:40:40.492 [main] ERROR com.intuit.karate - classpath:examples/users/weather.feature:31
+And match response.coord.lat == 55.75
+match failed: EQUALS
+  $ | not equal (NUMBER:NUMBER)
+  55.7504
+  55.75
+
+classpath:examples/users/weather.feature:31
+16:40:40.509 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:40:40.516 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=35.68&lon=139.69&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:40:40.811 [main] DEBUG com.intuit.karate - response time in milliseconds: 294
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:40:40 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 504
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=35.68&lon=139.69
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":139.69,"lat":35.68},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02d"}],"base":"stations","main":{"temp":281.71,"feels_like":278.34,"temp_min":280.17,"temp_max":282.99,"pressure":1014,"humidity":56,"sea_level":1014,"grnd_level":1012},"visibility":10000,"wind":{"speed":6.69,"deg":340},"clouds":{"all":20},"dt":1733002840,"sys":{"type":2,"id":268395,"country":"JP","sunrise":1733002359,"sunset":1733038095},"timezone":32400,"id":1850144,"name":"Tokyo","cod":200}
+
+16:40:40.832 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:40:40.839 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=-23.55&lon=-46.63&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:40:41.117 [main] DEBUG com.intuit.karate - response time in milliseconds: 276
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:40:40 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 514
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=-23.55&lon=-46.63
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-46.6334,"lat":-23.5507},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":295.47,"feels_like":296.06,"temp_min":294.84,"temp_max":296.47,"pressure":1013,"humidity":88,"sea_level":1013,"grnd_level":924},"visibility":10000,"wind":{"speed":5.14,"deg":170},"clouds":{"all":75},"dt":1733002376,"sys":{"type":1,"id":8394,"country":"BR","sunrise":1732954295,"sunset":1733002773},"timezone":-10800,"id":3458611,"name":"Liberdade","cod":200}
+
+16:40:41.120 [main] ERROR com.intuit.karate - classpath:examples/users/weather.feature:31
+And match response.coord.lat == -23.55
+match failed: EQUALS
+  $ | not equal (NUMBER:NUMBER)
+  -23.5507
+  -23.55
+
+classpath:examples/users/weather.feature:31
+16:40:41.135 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:40:41.143 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=-34.61&lon=-58.38&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:40:41.425 [main] DEBUG com.intuit.karate - response time in milliseconds: 280
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:40:41 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 510
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=-34.61&lon=-58.38
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-58.38,"lat":-34.61},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":295.65,"feels_like":295.6,"temp_min":294.95,"temp_max":297.03,"pressure":1013,"humidity":63,"sea_level":1013,"grnd_level":1012},"visibility":10000,"wind":{"speed":6.69,"deg":100},"clouds":{"all":0},"dt":1733002841,"sys":{"type":2,"id":2020613,"country":"AR","sunrise":1732955649,"sunset":1733007058},"timezone":-10800,"id":3435910,"name":"Buenos Aires","cod":200}
+
+16:40:41.445 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:40:41.451 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=8a641b11ec90007d395813a6f3ca2c10&mode=json
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:40:41.778 [main] DEBUG com.intuit.karate - response time in milliseconds: 325
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:40:41 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 511
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?mode=json&q=london
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-0.1257,"lat":51.5085},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04n"}],"base":"stations","main":{"temp":285.29,"feels_like":284.91,"temp_min":284.54,"temp_max":285.98,"pressure":1021,"humidity":90,"sea_level":1021,"grnd_level":1017},"visibility":10000,"wind":{"speed":2.57,"deg":160},"clouds":{"all":100},"dt":1733002739,"sys":{"type":2,"id":2075535,"country":"GB","sunrise":1732952586,"sunset":1732982153},"timezone":0,"id":2643743,"name":"London","cod":200}
+
+16:40:41.794 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:40:41.802 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=8a641b11ec90007d395813a6f3ca2c10&mode=xml
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:40:42.205 [main] DEBUG com.intuit.karate - response time in milliseconds: 401
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:40:41 GMT
+1 < Content-Type: application/xml; charset=utf-8
+1 < Content-Length: 878
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?mode=xml&q=london
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+<?xml version="1.0" encoding="UTF-8"?>
+<current><city id="2643743" name="London"><coord lon="-0.1257" lat="51.5085"></coord><country>GB</country><timezone>0</timezone><sun rise="2024-11-30T07:43:06" set="2024-11-30T15:55:53"></sun></city><temperature value="285.32" min="284.54" max="285.98" unit="kelvin"></temperature><feels_like value="284.94" unit="kelvin"></feels_like><humidity value="90" unit="%"></humidity><pressure value="1021" unit="hPa"></pressure><wind><speed value="2.57" unit="m/s" name="Light breeze"></speed><gusts></gusts><direction value="160" code="SSE" name="South-southeast"></direction></wind><clouds value="100" name="overcast clouds"></clouds><visibility value="10000"></visibility><precipitation mode="no"></precipitation><weather number="804" value="overcast clouds" icon="04n"></weather><lastupdate value="2024-11-30T21:36:30"></lastupdate></current>
+
+16:40:42.248 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:40:42.254 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=invalid_api_key
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:40:42.560 [main] DEBUG com.intuit.karate - response time in milliseconds: 304
+1 < 401
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:40:42 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 108
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=london
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"cod":401, "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."}
+
+16:40:42.585 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:40:42.593 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=London
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:40:42.931 [main] DEBUG com.intuit.karate - response time in milliseconds: 337
+1 < 401
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:40:42 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 108
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=london
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"cod":401, "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."}
+
+16:40:42.942 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:40:42.946 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:40:43.226 [main] DEBUG com.intuit.karate - response time in milliseconds: 276
+1 < 400
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:40:42 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"cod":"400","message":"Nothing to geocode"}
+
+16:40:43.251 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:40:43.260 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=35&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:40:43.562 [main] DEBUG com.intuit.karate - response time in milliseconds: 299
+1 < 400
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:40:43 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=35
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"cod":"400","message":"Nothing to geocode"}
+
+16:42:14.073 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:42:17.563 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:42:18.369 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:42:19.456 [main] DEBUG com.intuit.karate - response time in milliseconds: 1080
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:42:19 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 508
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=london
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-0.1257,"lat":51.5085},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04n"}],"base":"stations","main":{"temp":285.44,"feels_like":285.07,"temp_min":284.54,"temp_max":286.36,"pressure":1022,"humidity":90,"sea_level":1022,"grnd_level":1018},"visibility":10000,"wind":{"speed":3.09,"deg":160},"clouds":{"all":75},"dt":1733002109,"sys":{"type":2,"id":2075535,"country":"GB","sunrise":1732952586,"sunset":1732982153},"timezone":0,"id":2643743,"name":"London","cod":200}
+
+16:42:19.650 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:42:19.660 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=Paris&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:42:19.944 [main] DEBUG com.intuit.karate - response time in milliseconds: 281
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:42:19 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 496
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=paris
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":2.3488,"lat":48.8534},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50n"}],"base":"stations","main":{"temp":274.99,"feels_like":272.24,"temp_min":274.43,"temp_max":275.92,"pressure":1026,"humidity":100,"sea_level":1026,"grnd_level":1016},"visibility":1200,"wind":{"speed":2.57,"deg":160},"clouds":{"all":100},"dt":1733002835,"sys":{"type":1,"id":6550,"country":"FR","sunrise":1732951317,"sunset":1732982233},"timezone":3600,"id":2988507,"name":"Paris","cod":200}
+
+16:42:19.977 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:42:19.988 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=Tokyo&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:42:20.270 [main] DEBUG com.intuit.karate - response time in milliseconds: 280
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:42:20 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 507
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=tokyo
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":139.6917,"lat":35.6895},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02d"}],"base":"stations","main":{"temp":281.56,"feels_like":278.14,"temp_min":279.7,"temp_max":282.96,"pressure":1014,"humidity":56,"sea_level":1014,"grnd_level":1012},"visibility":10000,"wind":{"speed":6.69,"deg":340},"clouds":{"all":20},"dt":1733002650,"sys":{"type":2,"id":268395,"country":"JP","sunrise":1733002360,"sunset":1733038093},"timezone":32400,"id":1850144,"name":"Tokyo","cod":200}
+
+16:42:20.294 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:42:20.303 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=New+York&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:42:20.588 [main] DEBUG com.intuit.karate - response time in milliseconds: 282
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:42:20 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 512
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=new+york
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-74.006,"lat":40.7143},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02n"}],"base":"stations","main":{"temp":275.93,"feels_like":270.93,"temp_min":274.72,"temp_max":277.02,"pressure":1017,"humidity":46,"sea_level":1017,"grnd_level":1015},"visibility":10000,"wind":{"speed":6.69,"deg":250},"clouds":{"all":20},"dt":1733002381,"sys":{"type":2,"id":2008776,"country":"US","sunrise":1732968022,"sunset":1733002188},"timezone":-18000,"id":5128581,"name":"New York","cod":200}
+
+16:42:20.621 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:42:20.630 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=Sydney&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:42:20.938 [main] DEBUG com.intuit.karate - response time in milliseconds: 304
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:42:20 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 517
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=sydney
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":151.2073,"lat":-33.8679},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":296.55,"feels_like":297.11,"temp_min":294.94,"temp_max":297.84,"pressure":1007,"humidity":83,"sea_level":1007,"grnd_level":1002},"visibility":10000,"wind":{"speed":4.12,"deg":290},"clouds":{"all":40},"dt":1733002768,"sys":{"type":2,"id":2091046,"country":"AU","sunrise":1732991855,"sunset":1733043069},"timezone":39600,"id":2147714,"name":"Sydney","cod":200}
+
+16:42:20.964 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:42:20.972 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=Bogota&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:42:21.251 [main] DEBUG com.intuit.karate - response time in milliseconds: 278
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:42:20 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 508
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=bogota
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-74.0817,"lat":4.6097},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":289.96,"feels_like":289.18,"temp_min":289.88,"temp_max":291.3,"pressure":1014,"humidity":57,"sea_level":1014,"grnd_level":737},"visibility":10000,"wind":{"speed":4.12,"deg":100},"clouds":{"all":75},"dt":1733002305,"sys":{"type":1,"id":8582,"country":"CO","sunrise":1732963750,"sunset":1733006496},"timezone":-18000,"id":3688689,"name":"Bogota","cod":200}
+
+16:42:21.274 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:42:21.283 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:42:21.561 [main] DEBUG com.intuit.karate - response time in milliseconds: 277
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:42:21 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 510
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=35&lon=139
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":139,"lat":35},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":278.32,"feels_like":278.32,"temp_min":278.32,"temp_max":278.32,"pressure":1014,"humidity":90,"sea_level":1014,"grnd_level":974},"visibility":10000,"wind":{"speed":0.71,"deg":108,"gust":1.09},"clouds":{"all":4},"dt":1733002837,"sys":{"type":2,"id":2019346,"country":"JP","sunrise":1733002425,"sunset":1733038360},"timezone":32400,"id":1851632,"name":"Shuzenji","cod":200}
+
+16:42:21.617 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:42:21.628 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=-33.86&lon=151.21&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:42:21.940 [main] DEBUG com.intuit.karate - response time in milliseconds: 311
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:42:21 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 517
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=-33.86&lon=151.21
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":151.21,"lat":-33.86},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":296.85,"feels_like":297.44,"temp_min":295.23,"temp_max":298.14,"pressure":1007,"humidity":83,"sea_level":1007,"grnd_level":1002},"visibility":10000,"wind":{"speed":4.12,"deg":290},"clouds":{"all":40},"dt":1733002838,"sys":{"type":2,"id":2091046,"country":"AU","sunrise":1732991856,"sunset":1733043067},"timezone":39600,"id":2161251,"name":"Kirribilli","cod":200}
+
+16:42:21.998 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:42:22.010 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=4.61&lon=-74.08&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:42:22.285 [main] DEBUG com.intuit.karate - response time in milliseconds: 273
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:42:22 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 505
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=4.61&lon=-74.08
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-74.08,"lat":4.61},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":289.83,"feels_like":289.09,"temp_min":289.83,"temp_max":289.83,"pressure":1014,"humidity":59,"sea_level":1014,"grnd_level":737},"visibility":10000,"wind":{"speed":4.12,"deg":100},"clouds":{"all":75},"dt":1733002839,"sys":{"type":1,"id":8582,"country":"CO","sunrise":1732963750,"sunset":1733006496},"timezone":-18000,"id":3688689,"name":"Bogota","cod":200}
+
+16:42:22.312 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:42:22.324 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=6.24&lon=-75.58&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:42:22.989 [main] DEBUG com.intuit.karate - response time in milliseconds: 664
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:42:22 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 503
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=6.24&lon=-75.58
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-75.58,"lat":6.24},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02d"}],"base":"stations","main":{"temp":303.25,"feels_like":302.15,"temp_min":300.3,"temp_max":303.25,"pressure":1009,"humidity":32,"sea_level":1009,"grnd_level":803},"visibility":10000,"wind":{"speed":7.72,"deg":70},"clouds":{"all":20},"dt":1733002839,"sys":{"type":1,"id":8577,"country":"CO","sunrise":1732964267,"sunset":1733006699},"timezone":-18000,"id":3674962,"name":"Medellín","cod":200}
+
+16:42:23.015 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:42:23.026 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=35.68&lon=139.69&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:42:23.325 [main] DEBUG com.intuit.karate - response time in milliseconds: 297
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:42:23 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 504
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=35.68&lon=139.69
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":139.69,"lat":35.68},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02d"}],"base":"stations","main":{"temp":281.71,"feels_like":278.34,"temp_min":280.17,"temp_max":282.99,"pressure":1014,"humidity":56,"sea_level":1014,"grnd_level":1012},"visibility":10000,"wind":{"speed":6.69,"deg":340},"clouds":{"all":20},"dt":1733002840,"sys":{"type":2,"id":268395,"country":"JP","sunrise":1733002359,"sunset":1733038095},"timezone":32400,"id":1850144,"name":"Tokyo","cod":200}
+
+16:42:23.342 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:42:23.352 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=-34.61&lon=-58.38&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:42:23.627 [main] DEBUG com.intuit.karate - response time in milliseconds: 273
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:42:23 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 510
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=-34.61&lon=-58.38
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-58.38,"lat":-34.61},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":295.65,"feels_like":295.6,"temp_min":294.95,"temp_max":297.03,"pressure":1013,"humidity":63,"sea_level":1013,"grnd_level":1012},"visibility":10000,"wind":{"speed":6.69,"deg":100},"clouds":{"all":0},"dt":1733002841,"sys":{"type":2,"id":2020613,"country":"AR","sunrise":1732955649,"sunset":1733007058},"timezone":-10800,"id":3435910,"name":"Buenos Aires","cod":200}
+
+16:42:23.648 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:42:23.659 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=8a641b11ec90007d395813a6f3ca2c10&mode=json
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:42:23.937 [main] DEBUG com.intuit.karate - response time in milliseconds: 276
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:42:23 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 511
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?mode=json&q=london
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-0.1257,"lat":51.5085},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04n"}],"base":"stations","main":{"temp":285.29,"feels_like":284.91,"temp_min":284.54,"temp_max":285.98,"pressure":1021,"humidity":90,"sea_level":1021,"grnd_level":1017},"visibility":10000,"wind":{"speed":2.57,"deg":160},"clouds":{"all":100},"dt":1733002739,"sys":{"type":2,"id":2075535,"country":"GB","sunrise":1732952586,"sunset":1732982153},"timezone":0,"id":2643743,"name":"London","cod":200}
+
+16:42:23.953 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:42:23.959 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=8a641b11ec90007d395813a6f3ca2c10&mode=xml
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:42:24.264 [main] DEBUG com.intuit.karate - response time in milliseconds: 304
+1 < 200
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:42:23 GMT
+1 < Content-Type: application/xml; charset=utf-8
+1 < Content-Length: 878
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?mode=xml&q=london
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+<?xml version="1.0" encoding="UTF-8"?>
+<current><city id="2643743" name="London"><coord lon="-0.1257" lat="51.5085"></coord><country>GB</country><timezone>0</timezone><sun rise="2024-11-30T07:43:06" set="2024-11-30T15:55:53"></sun></city><temperature value="285.32" min="284.54" max="285.98" unit="kelvin"></temperature><feels_like value="284.94" unit="kelvin"></feels_like><humidity value="90" unit="%"></humidity><pressure value="1021" unit="hPa"></pressure><wind><speed value="2.57" unit="m/s" name="Light breeze"></speed><gusts></gusts><direction value="160" code="SSE" name="South-southeast"></direction></wind><clouds value="100" name="overcast clouds"></clouds><visibility value="10000"></visibility><precipitation mode="no"></precipitation><weather number="804" value="overcast clouds" icon="04n"></weather><lastupdate value="2024-11-30T21:36:30"></lastupdate></current>
+
+16:42:24.296 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:42:24.305 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=invalid_api_key
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:42:24.634 [main] DEBUG com.intuit.karate - response time in milliseconds: 327
+1 < 401
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:42:24 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 108
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=london
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"cod":401, "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."}
+
+16:42:24.653 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:42:24.659 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=London
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:42:24.938 [main] DEBUG com.intuit.karate - response time in milliseconds: 277
+1 < 401
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:42:24 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 108
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=london
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"cod":401, "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."}
+
+16:42:24.948 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:42:24.953 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:42:25.233 [main] DEBUG com.intuit.karate - response time in milliseconds: 278
+1 < 400
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:42:24 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"cod":"400","message":"Nothing to geocode"}
+
+16:42:25.252 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+16:42:25.258 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=35&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:42:25.532 [main] DEBUG com.intuit.karate - response time in milliseconds: 272
+1 < 400
+1 < Server: openresty
+1 < Date: Sat, 30 Nov 2024 21:42:25 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=35
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"cod":"400","message":"Nothing to geocode"}
+
+17:23:13.511 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:23:17.111 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:23:18.225 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:23:19.562 [main] DEBUG com.intuit.karate - response time in milliseconds: 1327
+1 < 200
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:23:19 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 510
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=london
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-0.1257,"lat":51.5085},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04n"}],"base":"stations","main":{"temp":285.55,"feels_like":285.12,"temp_min":284.6,"temp_max":286.01,"pressure":1012,"humidity":87,"sea_level":1012,"grnd_level":1007},"visibility":10000,"wind":{"speed":4.12,"deg":220},"clouds":{"all":100},"dt":1733091362,"sys":{"type":2,"id":2075535,"country":"GB","sunrise":1733039070,"sunset":1733068513},"timezone":0,"id":2643743,"name":"London","cod":200}
+
+17:23:19.796 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:23:19.814 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=Paris&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:23:20.339 [main] DEBUG com.intuit.karate - response time in milliseconds: 521
+1 < 200
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:23:20 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 512
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=paris
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":2.3488,"lat":48.8534},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04n"}],"base":"stations","main":{"temp":283.28,"feels_like":282.88,"temp_min":282.43,"temp_max":284.03,"pressure":1019,"humidity":97,"sea_level":1019,"grnd_level":1009},"visibility":10000,"wind":{"speed":3.09,"deg":220},"clouds":{"all":100},"dt":1733091800,"sys":{"type":2,"id":2012208,"country":"FR","sunrise":1733037794,"sunset":1733068601},"timezone":3600,"id":2988507,"name":"Paris","cod":200}
+
+17:23:20.381 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:23:20.392 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=Tokyo&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:23:20.790 [main] DEBUG com.intuit.karate - response time in milliseconds: 396
+1 < 200
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:23:21 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 507
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=tokyo
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":139.6917,"lat":35.6895},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":282.6,"feels_like":280,"temp_min":281.83,"temp_max":283.94,"pressure":1018,"humidity":67,"sea_level":1018,"grnd_level":1016},"visibility":10000,"wind":{"speed":5.14,"deg":340},"clouds":{"all":75},"dt":1733091655,"sys":{"type":2,"id":268395,"country":"JP","sunrise":1733088814,"sunset":1733124484},"timezone":32400,"id":1850144,"name":"Tokyo","cod":200}
+
+17:23:20.841 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:23:20.866 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=New+York&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:23:21.217 [main] DEBUG com.intuit.karate - response time in milliseconds: 349
+1 < 200
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:23:21 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 517
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=new+york
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-74.006,"lat":40.7143},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01n"}],"base":"stations","main":{"temp":275.38,"feels_like":270.02,"temp_min":273.87,"temp_max":276.13,"pressure":1018,"humidity":40,"sea_level":1018,"grnd_level":1017},"visibility":10000,"wind":{"speed":7.2,"deg":260,"gust":10.8},"clouds":{"all":0},"dt":1733091708,"sys":{"type":1,"id":4610,"country":"US","sunrise":1733054484,"sunset":1733088571},"timezone":-18000,"id":5128581,"name":"New York","cod":200}
+
+17:23:21.245 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:23:21.250 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=Sydney&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:23:21.695 [main] DEBUG com.intuit.karate - response time in milliseconds: 443
+1 < 200
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:23:21 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 511
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=sydney
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":151.2073,"lat":-33.8679},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02d"}],"base":"stations","main":{"temp":299.29,"feels_like":299.29,"temp_min":298.28,"temp_max":300.06,"pressure":1009,"humidity":59,"sea_level":1009,"grnd_level":1004},"visibility":10000,"wind":{"speed":4.63,"deg":310},"clouds":{"all":20},"dt":1733091665,"sys":{"type":2,"id":2091046,"country":"AU","sunrise":1733078248,"sunset":1733129521},"timezone":39600,"id":2147714,"name":"Sydney","cod":200}
+
+17:23:21.733 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:23:21.744 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=Bogota&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:23:22.098 [main] DEBUG com.intuit.karate - response time in milliseconds: 352
+1 < 200
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:23:22 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 511
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=bogota
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-74.0817,"lat":4.6097},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":289.88,"feels_like":289.36,"temp_min":289.88,"temp_max":290.75,"pressure":1014,"humidity":67,"sea_level":1014,"grnd_level":736},"visibility":10000,"wind":{"speed":3.09,"deg":30},"clouds":{"all":40},"dt":1733091221,"sys":{"type":1,"id":8582,"country":"CO","sunrise":1733050176,"sunset":1733092915},"timezone":-18000,"id":3688689,"name":"Bogota","cod":200}
+
+17:23:22.135 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:23:22.145 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:23:22.517 [main] DEBUG com.intuit.karate - response time in milliseconds: 370
+1 < 200
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:23:22 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 512
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=35&lon=139
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":139,"lat":35},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":281.1,"feels_like":281.1,"temp_min":281.1,"temp_max":281.1,"pressure":1018,"humidity":95,"sea_level":1018,"grnd_level":978},"visibility":10000,"wind":{"speed":1.17,"deg":117,"gust":1.42},"clouds":{"all":52},"dt":1733091802,"sys":{"type":2,"id":2019346,"country":"JP","sunrise":1733088878,"sunset":1733124752},"timezone":32400,"id":1851632,"name":"Shuzenji","cod":200}
+
+17:23:22.560 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:23:22.568 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=-33.86&lon=151.21&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:23:22.911 [main] DEBUG com.intuit.karate - response time in milliseconds: 341
+1 < 200
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:23:23 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 507
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=-33.86&lon=151.21
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":151.21,"lat":-33.86},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02d"}],"base":"stations","main":{"temp":299.56,"feels_like":299.56,"temp_min":298.57,"temp_max":300.92,"pressure":1009,"humidity":59,"sea_level":1009,"grnd_level":1004},"visibility":10000,"wind":{"speed":4.63,"deg":310},"clouds":{"all":20},"dt":1733091803,"sys":{"type":2,"id":2091046,"country":"AU","sunrise":1733078249,"sunset":1733129519},"timezone":39600,"id":6619279,"name":"Sydney","cod":200}
+
+17:23:22.964 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:23:22.974 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=4.61&lon=-74.08&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:23:23.297 [main] DEBUG com.intuit.karate - response time in milliseconds: 321
+1 < 200
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:23:23 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 511
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=4.61&lon=-74.08
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-74.0817,"lat":4.6097},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":289.88,"feels_like":289.36,"temp_min":289.88,"temp_max":290.75,"pressure":1014,"humidity":67,"sea_level":1014,"grnd_level":736},"visibility":10000,"wind":{"speed":3.09,"deg":30},"clouds":{"all":40},"dt":1733091221,"sys":{"type":1,"id":8582,"country":"CO","sunrise":1733050176,"sunset":1733092915},"timezone":-18000,"id":3688689,"name":"Bogota","cod":200}
+
+17:23:23.310 [main] ERROR com.intuit.karate - classpath:examples/users/weather.feature:31
+And match response.coord.lat == 4.61
+match failed: EQUALS
+  $ | not equal (NUMBER:NUMBER)
+  4.6097
+  4.61
+
+classpath:examples/users/weather.feature:31
+17:23:23.396 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:23:23.404 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=6.24&lon=-75.58&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:23:23.745 [main] DEBUG com.intuit.karate - response time in milliseconds: 338
+1 < 200
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:23:24 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 515
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=6.24&lon=-75.58
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-75.58,"lat":6.24},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02d"}],"base":"stations","main":{"temp":296.74,"feels_like":296.7,"temp_min":296.58,"temp_max":297.6,"pressure":1010,"humidity":59,"sea_level":1010,"grnd_level":804},"visibility":10000,"wind":{"speed":5.81,"deg":130,"gust":0},"clouds":{"all":20},"dt":1733091804,"sys":{"type":2,"id":2084700,"country":"CO","sunrise":1733050694,"sunset":1733093117},"timezone":-18000,"id":3674962,"name":"Medellín","cod":200}
+
+17:23:23.776 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:23:23.784 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=35.68&lon=139.69&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:23:24.112 [main] DEBUG com.intuit.karate - response time in milliseconds: 326
+1 < 200
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:23:24 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 507
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=35.68&lon=139.69
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":139.69,"lat":35.68},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":282.71,"feels_like":280.14,"temp_min":281.86,"temp_max":283.97,"pressure":1018,"humidity":67,"sea_level":1018,"grnd_level":1016},"visibility":10000,"wind":{"speed":5.14,"deg":340},"clouds":{"all":75},"dt":1733091804,"sys":{"type":2,"id":268395,"country":"JP","sunrise":1733088813,"sunset":1733124486},"timezone":32400,"id":1850144,"name":"Tokyo","cod":200}
+
+17:23:24.132 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:23:24.139 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=-34.61&lon=-58.38&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:23:24.534 [main] DEBUG com.intuit.karate - response time in milliseconds: 393
+1 < 200
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:23:24 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 523
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=-34.61&lon=-58.38
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-58.38,"lat":-34.61},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":294.72,"feels_like":294.66,"temp_min":294.17,"temp_max":295.32,"pressure":1001,"humidity":66,"sea_level":1001,"grnd_level":1000},"visibility":10000,"wind":{"speed":9.39,"deg":200,"gust":15.2},"clouds":{"all":0},"dt":1733091804,"sys":{"type":2,"id":2092396,"country":"AR","sunrise":1733042040,"sunset":1733093512},"timezone":-10800,"id":3435910,"name":"Buenos Aires","cod":200}
+
+17:23:24.557 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:23:24.564 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=8a641b11ec90007d395813a6f3ca2c10&mode=json
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:23:24.914 [main] DEBUG com.intuit.karate - response time in milliseconds: 347
+1 < 200
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:23:25 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 510
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?mode=json&q=london
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-0.1257,"lat":51.5085},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04n"}],"base":"stations","main":{"temp":285.45,"feels_like":285.03,"temp_min":284.6,"temp_max":286.01,"pressure":1012,"humidity":88,"sea_level":1012,"grnd_level":1007},"visibility":10000,"wind":{"speed":4.12,"deg":220},"clouds":{"all":100},"dt":1733091602,"sys":{"type":2,"id":2075535,"country":"GB","sunrise":1733039070,"sunset":1733068513},"timezone":0,"id":2643743,"name":"London","cod":200}
+
+17:23:24.932 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:23:24.939 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=8a641b11ec90007d395813a6f3ca2c10&mode=xml
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:23:25.460 [main] DEBUG com.intuit.karate - response time in milliseconds: 518
+1 < 200
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:23:25 GMT
+1 < Content-Type: application/xml; charset=utf-8
+1 < Content-Length: 871
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?mode=xml&q=london
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+<?xml version="1.0" encoding="UTF-8"?>
+<current><city id="2643743" name="London"><coord lon="-0.1257" lat="51.5085"></coord><country>GB</country><timezone>0</timezone><sun rise="2024-12-01T07:44:30" set="2024-12-01T15:55:13"></sun></city><temperature value="285.43" min="284.6" max="286.01" unit="kelvin"></temperature><feels_like value="285.01" unit="kelvin"></feels_like><humidity value="88" unit="%"></humidity><pressure value="1012" unit="hPa"></pressure><wind><speed value="4.12" unit="m/s" name="Gentle Breeze"></speed><gusts></gusts><direction value="220" code="SW" name="Southwest"></direction></wind><clouds value="100" name="overcast clouds"></clouds><visibility value="10000"></visibility><precipitation mode="no"></precipitation><weather number="804" value="overcast clouds" icon="04n"></weather><lastupdate value="2024-12-01T22:23:08"></lastupdate></current>
+
+17:23:25.522 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:23:25.529 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=invalid_api_key
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:23:25.926 [main] DEBUG com.intuit.karate - response time in milliseconds: 396
+1 < 401
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:23:26 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 108
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=london
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"cod":401, "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."}
+
+17:23:25.943 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:23:25.948 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=London
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:23:26.317 [main] DEBUG com.intuit.karate - response time in milliseconds: 367
+1 < 401
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:23:26 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 108
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=london
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"cod":401, "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."}
+
+17:23:26.334 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:23:26.338 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:23:26.709 [main] DEBUG com.intuit.karate - response time in milliseconds: 369
+1 < 400
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:23:26 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"cod":"400","message":"Nothing to geocode"}
+
+17:23:26.732 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:23:26.738 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=35&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:23:27.119 [main] DEBUG com.intuit.karate - response time in milliseconds: 379
+1 < 400
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:23:27 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=35
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"cod":"400","message":"Nothing to geocode"}
+
+17:24:19.819 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:24:23.165 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:24:24.056 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:24:25.382 [main] DEBUG com.intuit.karate - response time in milliseconds: 1304
+1 < 200
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:24:25 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 510
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=london
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-0.1257,"lat":51.5085},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04n"}],"base":"stations","main":{"temp":285.55,"feels_like":285.12,"temp_min":284.6,"temp_max":286.01,"pressure":1012,"humidity":87,"sea_level":1012,"grnd_level":1007},"visibility":10000,"wind":{"speed":4.12,"deg":220},"clouds":{"all":100},"dt":1733091362,"sys":{"type":2,"id":2075535,"country":"GB","sunrise":1733039070,"sunset":1733068513},"timezone":0,"id":2643743,"name":"London","cod":200}
+
+17:24:25.694 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:24:25.705 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=Paris&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:24:26.157 [main] DEBUG com.intuit.karate - response time in milliseconds: 450
+1 < 200
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:24:26 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 512
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=paris
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":2.3488,"lat":48.8534},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04n"}],"base":"stations","main":{"temp":283.28,"feels_like":282.88,"temp_min":282.43,"temp_max":284.03,"pressure":1019,"humidity":97,"sea_level":1019,"grnd_level":1009},"visibility":10000,"wind":{"speed":3.09,"deg":220},"clouds":{"all":100},"dt":1733091800,"sys":{"type":2,"id":2012208,"country":"FR","sunrise":1733037794,"sunset":1733068601},"timezone":3600,"id":2988507,"name":"Paris","cod":200}
+
+17:24:26.191 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:24:26.198 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=Tokyo&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:24:26.956 [main] DEBUG com.intuit.karate - response time in milliseconds: 755
+1 < 200
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:24:27 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 507
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=tokyo
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":139.6917,"lat":35.6895},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":282.6,"feels_like":280,"temp_min":281.83,"temp_max":283.94,"pressure":1018,"humidity":67,"sea_level":1018,"grnd_level":1016},"visibility":10000,"wind":{"speed":5.14,"deg":340},"clouds":{"all":75},"dt":1733091655,"sys":{"type":2,"id":268395,"country":"JP","sunrise":1733088814,"sunset":1733124484},"timezone":32400,"id":1850144,"name":"Tokyo","cod":200}
+
+17:24:27.024 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:24:27.051 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=New+York&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:24:27.569 [main] DEBUG com.intuit.karate - response time in milliseconds: 516
+1 < 200
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:24:27 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 517
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=new+york
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-74.006,"lat":40.7143},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01n"}],"base":"stations","main":{"temp":275.38,"feels_like":270.02,"temp_min":273.87,"temp_max":276.13,"pressure":1018,"humidity":40,"sea_level":1018,"grnd_level":1017},"visibility":10000,"wind":{"speed":7.2,"deg":260,"gust":10.8},"clouds":{"all":0},"dt":1733091708,"sys":{"type":1,"id":4610,"country":"US","sunrise":1733054484,"sunset":1733088571},"timezone":-18000,"id":5128581,"name":"New York","cod":200}
+
+17:24:27.599 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:24:27.607 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=Sydney&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:24:28.091 [main] DEBUG com.intuit.karate - response time in milliseconds: 483
+1 < 200
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:24:28 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 511
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=sydney
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":151.2073,"lat":-33.8679},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02d"}],"base":"stations","main":{"temp":299.29,"feels_like":299.29,"temp_min":298.28,"temp_max":300.06,"pressure":1009,"humidity":59,"sea_level":1009,"grnd_level":1004},"visibility":10000,"wind":{"speed":4.63,"deg":310},"clouds":{"all":20},"dt":1733091665,"sys":{"type":2,"id":2091046,"country":"AU","sunrise":1733078248,"sunset":1733129521},"timezone":39600,"id":2147714,"name":"Sydney","cod":200}
+
+17:24:28.113 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:24:28.122 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=Bogota&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:24:28.696 [main] DEBUG com.intuit.karate - response time in milliseconds: 572
+1 < 200
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:24:28 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 511
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=bogota
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-74.0817,"lat":4.6097},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":289.88,"feels_like":289.36,"temp_min":289.88,"temp_max":290.75,"pressure":1014,"humidity":67,"sea_level":1014,"grnd_level":736},"visibility":10000,"wind":{"speed":3.09,"deg":30},"clouds":{"all":40},"dt":1733091221,"sys":{"type":1,"id":8582,"country":"CO","sunrise":1733050176,"sunset":1733092915},"timezone":-18000,"id":3688689,"name":"Bogota","cod":200}
+
+17:24:28.743 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:24:28.754 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:24:29.311 [main] DEBUG com.intuit.karate - response time in milliseconds: 554
+1 < 200
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:24:29 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 512
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=35&lon=139
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":139,"lat":35},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":281.1,"feels_like":281.1,"temp_min":281.1,"temp_max":281.1,"pressure":1018,"humidity":95,"sea_level":1018,"grnd_level":978},"visibility":10000,"wind":{"speed":1.17,"deg":117,"gust":1.42},"clouds":{"all":52},"dt":1733091802,"sys":{"type":2,"id":2019346,"country":"JP","sunrise":1733088878,"sunset":1733124752},"timezone":32400,"id":1851632,"name":"Shuzenji","cod":200}
+
+17:24:29.354 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:24:29.362 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=-33.86&lon=151.21&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:24:29.744 [main] DEBUG com.intuit.karate - response time in milliseconds: 379
+1 < 200
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:24:29 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 507
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=-33.86&lon=151.21
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":151.21,"lat":-33.86},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02d"}],"base":"stations","main":{"temp":299.56,"feels_like":299.56,"temp_min":298.57,"temp_max":300.92,"pressure":1009,"humidity":59,"sea_level":1009,"grnd_level":1004},"visibility":10000,"wind":{"speed":4.63,"deg":310},"clouds":{"all":20},"dt":1733091803,"sys":{"type":2,"id":2091046,"country":"AU","sunrise":1733078249,"sunset":1733129519},"timezone":39600,"id":6619279,"name":"Sydney","cod":200}
+
+17:24:29.791 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:24:29.810 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=4.6097&lon=-74.08&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:24:30.214 [main] DEBUG com.intuit.karate - response time in milliseconds: 401
+1 < 200
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:24:30 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 507
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=4.61&lon=-74.08
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-74.08,"lat":4.6097},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":289.46,"feels_like":288.9,"temp_min":288.9,"temp_max":290.69,"pressure":1014,"humidity":67,"sea_level":1014,"grnd_level":736},"visibility":10000,"wind":{"speed":3.09,"deg":30},"clouds":{"all":40},"dt":1733091870,"sys":{"type":1,"id":8582,"country":"CO","sunrise":1733050175,"sunset":1733092915},"timezone":-18000,"id":3688689,"name":"Bogota","cod":200}
+
+17:24:30.238 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:24:30.245 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=6.24&lon=-75.58&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:24:30.567 [main] DEBUG com.intuit.karate - response time in milliseconds: 320
+1 < 200
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:24:30 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 515
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=6.24&lon=-75.58
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-75.58,"lat":6.24},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02d"}],"base":"stations","main":{"temp":296.74,"feels_like":296.7,"temp_min":296.58,"temp_max":297.6,"pressure":1010,"humidity":59,"sea_level":1010,"grnd_level":804},"visibility":10000,"wind":{"speed":5.81,"deg":130,"gust":0},"clouds":{"all":20},"dt":1733091804,"sys":{"type":2,"id":2084700,"country":"CO","sunrise":1733050694,"sunset":1733093117},"timezone":-18000,"id":3674962,"name":"Medellín","cod":200}
+
+17:24:30.591 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:24:30.599 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=35.68&lon=139.69&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:24:30.977 [main] DEBUG com.intuit.karate - response time in milliseconds: 375
+1 < 200
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:24:31 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 507
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=35.68&lon=139.69
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":139.69,"lat":35.68},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":282.71,"feels_like":280.14,"temp_min":281.86,"temp_max":283.97,"pressure":1018,"humidity":67,"sea_level":1018,"grnd_level":1016},"visibility":10000,"wind":{"speed":5.14,"deg":340},"clouds":{"all":75},"dt":1733091804,"sys":{"type":2,"id":268395,"country":"JP","sunrise":1733088813,"sunset":1733124486},"timezone":32400,"id":1850144,"name":"Tokyo","cod":200}
+
+17:24:31.008 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:24:31.018 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=-34.61&lon=-58.38&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:24:31.436 [main] DEBUG com.intuit.karate - response time in milliseconds: 416
+1 < 200
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:24:31 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 523
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=-34.61&lon=-58.38
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-58.38,"lat":-34.61},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":294.72,"feels_like":294.66,"temp_min":294.17,"temp_max":295.32,"pressure":1001,"humidity":66,"sea_level":1001,"grnd_level":1000},"visibility":10000,"wind":{"speed":9.39,"deg":200,"gust":15.2},"clouds":{"all":0},"dt":1733091804,"sys":{"type":2,"id":2092396,"country":"AR","sunrise":1733042040,"sunset":1733093512},"timezone":-10800,"id":3435910,"name":"Buenos Aires","cod":200}
+
+17:24:31.469 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:24:31.479 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=8a641b11ec90007d395813a6f3ca2c10&mode=json
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:24:31.816 [main] DEBUG com.intuit.karate - response time in milliseconds: 335
+1 < 200
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:24:32 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 510
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?mode=json&q=london
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"coord":{"lon":-0.1257,"lat":51.5085},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04n"}],"base":"stations","main":{"temp":285.45,"feels_like":285.03,"temp_min":284.6,"temp_max":286.01,"pressure":1012,"humidity":88,"sea_level":1012,"grnd_level":1007},"visibility":10000,"wind":{"speed":4.12,"deg":220},"clouds":{"all":100},"dt":1733091602,"sys":{"type":2,"id":2075535,"country":"GB","sunrise":1733039070,"sunset":1733068513},"timezone":0,"id":2643743,"name":"London","cod":200}
+
+17:24:31.843 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:24:31.854 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=8a641b11ec90007d395813a6f3ca2c10&mode=xml
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:24:32.255 [main] DEBUG com.intuit.karate - response time in milliseconds: 399
+1 < 200
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:24:32 GMT
+1 < Content-Type: application/xml; charset=utf-8
+1 < Content-Length: 871
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?mode=xml&q=london
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+<?xml version="1.0" encoding="UTF-8"?>
+<current><city id="2643743" name="London"><coord lon="-0.1257" lat="51.5085"></coord><country>GB</country><timezone>0</timezone><sun rise="2024-12-01T07:44:30" set="2024-12-01T15:55:13"></sun></city><temperature value="285.43" min="284.6" max="286.01" unit="kelvin"></temperature><feels_like value="285.01" unit="kelvin"></feels_like><humidity value="88" unit="%"></humidity><pressure value="1012" unit="hPa"></pressure><wind><speed value="4.12" unit="m/s" name="Gentle Breeze"></speed><gusts></gusts><direction value="220" code="SW" name="Southwest"></direction></wind><clouds value="100" name="overcast clouds"></clouds><visibility value="10000"></visibility><precipitation mode="no"></precipitation><weather number="804" value="overcast clouds" icon="04n"></weather><lastupdate value="2024-12-01T22:23:08"></lastupdate></current>
+
+17:24:32.293 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:24:32.301 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=invalid_api_key
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:24:32.651 [main] DEBUG com.intuit.karate - response time in milliseconds: 347
+1 < 401
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:24:32 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 108
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=london
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"cod":401, "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."}
+
+17:24:32.691 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:24:32.696 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?q=London
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:24:33.026 [main] DEBUG com.intuit.karate - response time in milliseconds: 327
+1 < 401
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:24:33 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 108
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?q=london
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"cod":401, "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."}
+
+17:24:33.044 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:24:33.049 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:24:33.376 [main] DEBUG com.intuit.karate - response time in milliseconds: 325
+1 < 400
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:24:33 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"cod":"400","message":"Nothing to geocode"}
+
+17:24:33.402 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'apiKey' with new value: karate.get('apiKey') // Obteniendo la clave de la API desde la configuración
+17:24:33.412 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.openweathermap.org/data/2.5/weather?lat=35&appid=8a641b11ec90007d395813a6f3ca2c10
+1 > Host: api.openweathermap.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:24:33.804 [main] DEBUG com.intuit.karate - response time in milliseconds: 391
+1 < 400
+1 < Server: openresty
+1 < Date: Sun, 01 Dec 2024 22:24:34 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < Connection: keep-alive
+1 < X-Cache-Key: /data/2.5/weather?lat=35
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET, POST
+{"cod":"400","message":"Nothing to geocode"}
+
